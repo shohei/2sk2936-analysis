@@ -22,7 +22,7 @@
   tabsize=2
 }
 %%%%%%%%%%%%%%%%%
-
+\usepackage{circuitikz}
 
 
 \begin{document}
@@ -34,6 +34,20 @@
 \section{テストベンチ}
 \subsection{回路図}
 テスト時の回路図を図\ref{testbench}に示す。
+
+
+%\begin{figure}[htbp]
+%\centering
+%\begin{circuitikz}
+%  \draw (0,0)
+%  to[V,v=$Vcc$] (0,2)
+%  to[short] (2,2)
+%  to[R=$R_{1}$] (2,0)
+%  to[short] (0,0);
+%\end{circuitikz}
+%\caption{動作試験回路}
+%\label{testbench}
+%\end{figure}
 
 
 \begin{figure}[htbp]
